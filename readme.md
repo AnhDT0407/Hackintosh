@@ -35,8 +35,7 @@ When directory boot is used the directory structure used should follow the descr
     - _Main booter driver responsible for operating system loading._
   - config.plist
     - _OC Config._
-- nvram.plist
-  - _OpenCore variable import file._
+- nvram.plist (_OpenCore variable import file._)
 
 ## Gathering files
 
