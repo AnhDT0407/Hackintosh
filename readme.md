@@ -10,6 +10,7 @@
 
 - Catalina 10.15.3.00
 
-## OpenCore 0.5.5
+## OpenCore
 
+- Version: 0.5.5
 - [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
