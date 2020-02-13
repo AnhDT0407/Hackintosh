@@ -22,6 +22,19 @@ When directory boot is used the directory structure used should follow the descr
 - BOOT
   - BOOTx64.efi
     - _Initial booter, which loads **OpenCore.efi** unless it was already started as a driver._
+- OC
+  - ACPI
+    - _Directory used for storing supplemental ACPI information for ACPI section._
+  - Drivers
+    - _Directory used for storing supplemental UEFI drivers for UEFI section._
+  - Kexts
+    - _Directory used for storing supplemental kernel information for Kernel section._
+  - Tools
+    - _Directory used for storing supplemental tools._
+  - OpenCore.efi
+    - _Main booter driver responsible for operating system loading._
+  - config.plist
+    - _OC Config._
 
 ## Gathering files
 
