@@ -14,3 +14,12 @@
 
 - Version: 0.5.5
 - [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
+
+## Gathering files
+
+### Firmware Drivers
+
+These are the drivers used for OpenCore, for the majority of systems you only need 3 .efi drivers to get up and running:
+
+- [ApfsDriverLoader.efi](https://github.com/acidanthera/AppleSupportPkg/releases)
+ - Needed for seeing APFS volumes.
