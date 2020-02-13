@@ -22,4 +22,4 @@
 These are the drivers used for OpenCore, for the majority of systems you only need 3 .efi drivers to get up and running:
 
 - [ApfsDriverLoader.efi](https://github.com/acidanthera/AppleSupportPkg/releases)
- - Needed for seeing APFS volumes.
+   - Needed for seeing APFS volumes.
