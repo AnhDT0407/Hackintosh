@@ -12,4 +12,4 @@
 
 ## OpenCore 0.5.5
 
-- [OpenCore release](https://github.com/acidanthera/OpenCorePkg/releases)
+- [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
