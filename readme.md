@@ -9,6 +9,7 @@
 ## MacOS
 
 - Catalina 10.15.3.00
+- [Download](https://github.com/AnhDT0407/Hackintosh/edit/master/readme.md)
 
 ## OpenCore
 
