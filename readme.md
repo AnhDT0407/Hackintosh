@@ -20,8 +20,8 @@
 When directory boot is used the directory structure used should follow the description on Directory Structure figure. Available entries include:
 
 - BOOT
-   - BOOTx64.efi
-     - Initial booter, which loads OpenCore.efi unless it was already started as a driver.
+  - BOOTx64.efi
+    - Initial booter, which loads OpenCore.efi unless it was already started as a driver.
 
 - OC
 
