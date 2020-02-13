@@ -21,7 +21,7 @@ When directory boot is used the directory structure used should follow the descr
 
 - BOOT
   - BOOTx64.efi
-    - _Initial booter, which loads **OpenCore.efi** unless it was already started as a driver._
+    - _Initial booter, which loads OpenCore.efi unless it was already started as a driver._
 - OC
   - ACPI
     - _Directory used for storing supplemental ACPI information for ACPI section._
@@ -35,6 +35,8 @@ When directory boot is used the directory structure used should follow the descr
     - _Main booter driver responsible for operating system loading._
   - config.plist
     - _OC Config._
+- nvram.plist
+  - _OpenCore variable import file._
 
 ## Gathering files
 
