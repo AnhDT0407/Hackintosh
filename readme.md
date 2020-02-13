@@ -53,3 +53,7 @@ These are the drivers used for OpenCore, for the majority of systems you only ne
   - _Needed for seeing HFS volumes. **Do not mix HFS drivers**._
 - [FwRuntimeServices.efi](https://github.com/acidanthera/OpenCorePkg/releases) _(Available in OpenCore/EFI/OC/Drivers)_
   - _Used for patching boot.efi for NVRAM fixes and better memory management._
+
+### Kexts
+
+A kext is a kernel extension, you can think of this as a driver for macOS, these files will go into the Kexts folder in your EFI.
