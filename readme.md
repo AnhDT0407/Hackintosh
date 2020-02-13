@@ -15,6 +15,10 @@
 - Version: 0.5.5
 - [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
 
+### Directory Structure
+
+When directory boot is used the directory structure used should follow the description on Directory Structure figure. Available entries include:
+
 ## Gathering files
 
 ### Firmware Drivers
