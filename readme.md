@@ -21,7 +21,7 @@ When directory boot is used the directory structure used should follow the descr
 
 - BOOT
   - BOOTx64.efi
-    - _Initial booter, which loads OpenCore.efi unless it was already started as a driver._
+    - _Initial booter, which loads *OpenCore.efi* unless it was already started as a driver._
 
 ## Gathering files
 
