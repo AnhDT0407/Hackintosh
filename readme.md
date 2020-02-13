@@ -23,3 +23,7 @@ These are the drivers used for OpenCore, for the majority of systems you only ne
 
 - [ApfsDriverLoader.efi](https://github.com/acidanthera/AppleSupportPkg/releases)
    - Needed for seeing APFS volumes.
+- [VboxHfs.efi](https://github.com/acidanthera/AppleSupportPkg/releases) or [HfsPlus.efi](https://cdn.discordapp.com/attachments/606452360495104000/633621011887292416/HFSPlus.efi)
+   - Needed for seeing HFS volumes. **Do not mix HFS drivers**
+- [FwRuntimeServices.efi]()
+   - Used for patching boot.efi for NVRAM fixes and better memory management.
