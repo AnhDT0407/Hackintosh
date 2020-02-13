@@ -6,10 +6,12 @@
 - GPU:       **ROG STRIX Radeon™ RX 5700 XT O8G GAMING**
 - SSD:       **240GB WD Green M2**
 
+
 ## MacOS
 
 - Catalina 10.15.3.00
 - [Download](https://github.com/AnhDT0407/Hackintosh/edit/master/readme.md)
+
 
 ## OpenCore
 
@@ -37,6 +39,7 @@ When directory boot is used the directory structure used should follow the descr
   - config.plist
     - _OC Config._
 - nvram.plist (_OpenCore variable import file._)
+
 
 ## Gathering files
 
