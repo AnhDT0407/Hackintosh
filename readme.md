@@ -22,8 +22,6 @@ When directory boot is used the directory structure used should follow the descr
 - BOOT
   - BOOTx64.efi
 
-- OC
-
 ## Gathering files
 
 ### Firmware Drivers
