@@ -21,7 +21,6 @@ When directory boot is used the directory structure used should follow the descr
 
 - BOOT
   - BOOTx64.efi
-   - Initial booter, which loads OpenCore.efi unless it was already started as a driver.
 
 - OC
 
@@ -32,8 +31,8 @@ When directory boot is used the directory structure used should follow the descr
 These are the drivers used for OpenCore, for the majority of systems you only need 3 .efi drivers to get up and running:
 
 - [ApfsDriverLoader.efi](https://github.com/acidanthera/AppleSupportPkg/releases)
-   - _Needed for seeing APFS volumes._
+  - _Needed for seeing APFS volumes._
 - [VboxHfs.efi](https://github.com/acidanthera/AppleSupportPkg/releases) or [HfsPlus.efi](https://cdn.discordapp.com/attachments/606452360495104000/633621011887292416/HFSPlus.efi)
-   - _Needed for seeing HFS volumes. **Do not mix HFS drivers**._
+  - _Needed for seeing HFS volumes. **Do not mix HFS drivers**._
 - [FwRuntimeServices.efi](https://github.com/acidanthera/OpenCorePkg/releases) _(Available in OpenCore/EFI/OC/Drivers)_
-   - _Used for patching boot.efi for NVRAM fixes and better memory management._
+  - _Used for patching boot.efi for NVRAM fixes and better memory management._
