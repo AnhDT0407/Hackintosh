@@ -61,7 +61,29 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
 **Must haves:**
 
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
-  - Emulates the SMC chip found on real macs, without this macOS will not boot.
-  - Alternative is **FakeSMC** which can have better or worse support, most commonly used on legacy hardware.
+  - _Emulates the SMC chip found on real macs, without this macOS will not boot._
+  - _Alternative is **FakeSMC** which can have better or worse support, most commonly used on legacy hardware._
 - [Lilu](https://github.com/acidanthera/Lilu/releases)
-  - A kext to patch many processes, required for **AppleALC** and **WhateverGreen** and recommended for **VirtualSMC**.
+  - _A kext to patch many processes, required for **AppleALC** and **WhateverGreen** and recommended for **VirtualSMC**._
+  
+**VirtualSMC Plugins:**
+
+- SMCProcessor.kext
+  - _Used for monitoring CPU temperature, **doesn't work AMD CPU based systems**._
+- SMCSuperIO.kext
+  - _Used for monitoring fan speed, **doesn't work AMD CPU based systems**._
+- SMCLightSensor.kext
+  - _Used for the ambient light sensor on laptops, **desktops can ignore**._
+- SMCBatteryManager.kext
+  - _Used for measuring battery readouts on laptops, **desktops can ignore**._
+  
+**Graphics:**
+
+- [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+  - _Used for graphics patching, all GPUs benefit from this kext._
+  
+**Audio:**
+
+  - AppleALC
+    - Used for AppleHDA patching, used for giving you onboard audio. AMD 15h/16h may have issues with this and Ryzen/Threadripper systems rarely have mic support
+
