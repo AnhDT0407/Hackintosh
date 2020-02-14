@@ -1,4 +1,4 @@
-## Configuration
+## + Configuration
 
 - Mainboard: **ROG STRIX B450-I GAMING**
 - CPU:       **AMD Ryzen™ 5 2600 Processor**
@@ -84,6 +84,6 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
   
 **Audio:**
 
-  - AppleALC
-    - Used for AppleHDA patching, used for giving you onboard audio. AMD 15h/16h may have issues with this and Ryzen/Threadripper systems rarely have mic support
+  - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
+    - _Used for AppleHDA patching, used for giving you onboard audio. AMD 15h/16h may have issues with this and Ryzen/Threadripper systems rarely have mic support._
 
