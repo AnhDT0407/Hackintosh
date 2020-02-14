@@ -1,4 +1,4 @@
-## + Configuration
+## Configuration
 
 - Mainboard: **ROG STRIX B450-I GAMING**
 - CPU:       **AMD Ryzen™ 5 2600 Processor**
@@ -86,4 +86,22 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
 
   - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
     - _Used for AppleHDA patching, used for giving you onboard audio. AMD 15h/16h may have issues with this and Ryzen/Threadripper systems rarely have mic support._
+    
+**Ethernet:**
+
+  - [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet)
+    - _Required for Intel NICs, newer chipsets are based off of I211-AT will need the [SmallTreeIntel82576 kext](https://github.com/khronokernel/Opencore-Vanilla-Desktop-Guide/blob/master/extra-files/SmallTreeIntel82576.kext.zip). AMD motherboards with intel NICs generally run I211-AT._
+  - [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases)
+    - _Required for Atheros and Killer NICs._
+  - [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
+    - _Required for Realtek NICs._
+
+**USB:**
+
+  - [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+    - _Used for injecting intel USB controllers, H370, B360, H310 and X79/X99/X299 systems will likely need [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All) as well. **Does not work on AMD CPU based systems**._
+  
+  
+  
+
 
