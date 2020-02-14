@@ -90,7 +90,7 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
 **Ethernet:**
 
   - [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet)
-    - _Required for Intel NICs, newer chipsets are based off of I211-AT will need the [SmallTreeIntel82576 kext](https://github.com/khronokernel/Opencore-Vanilla-Desktop-Guide/blob/master/extra-files/SmallTreeIntel82576.kext.zip). AMD motherboards with intel NICs generally run I211-AT._
+    - _Required for Intel NICs, newer chipsets are based off of I211-AT will need the [SmallTreeIntel82576](https://github.com/khronokernel/Opencore-Vanilla-Desktop-Guide/blob/master/extra-files/SmallTreeIntel82576.kext.zip). AMD motherboards with intel NICs generally run I211-AT._
   - [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases)
     - _Required for Atheros and Killer NICs._
   - [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
@@ -101,7 +101,13 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
   - [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
     - _Used for injecting intel USB controllers, H370, B360, H310 and X79/X99/X299 systems will likely need [XHCI-unsupported](https://github.com/RehabMan/OS-X-USB-Inject-All) as well. **Does not work on AMD CPU based systems**._
   
+**WiFi and Bluetooth:**
+ 
+  - None.
   
-  
+**AMD CPU Specific kexts:**
+
+  - [NullCPUPowerManagment](https://github.com/corpnewt/NullCPUPowerManagement)
+    - _OpenCore 0.5.5, we have a much better solution known as `DummyPowerManagement` found under `Kernel` -> `Quirks`._
 
 
