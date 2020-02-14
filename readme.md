@@ -108,6 +108,23 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
 **AMD CPU Specific kexts:**
 
   - [NullCPUPowerManagment](https://github.com/corpnewt/NullCPUPowerManagement)
-    - _OpenCore 0.5.5, we have a much better solution known as `DummyPowerManagement` found under `Kernel` -> `Quirks`._
+    - _OpenCore 0.5.5, we have a much better solution known as `DummyPowerManagement` found under `Kernel -> Quirks`._
+  - [VoodooHDA](https://sourceforge.net/projects/voodoohda/)
+    - _Audio for FX systems and front panel Mic+Audio support for Ryzen system, do not mix with AppleALC. Audio quality is noticably worse than AppleALC on Zen CPUs._
+    
+**Extra's:**
+
+  - [AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip)
+    - _Useful starting with Catalina to disable the AppleMCEReporter kext which will cause kernel panics on AMD CPUs and dual-socket systems:_
+      - _MacPro6,1_
+      - _MacPro7,1_
+      - _iMacPro1,1_
+  - [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
+    - _Used for fixing power management and initialization on non-Apple NVMe, requires macOS 10.14 or newer._
+    
+    
+ Please refer to [Kexts.md](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) for a full list of supported kexts
+
+
 
 
