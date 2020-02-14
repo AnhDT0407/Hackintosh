@@ -57,3 +57,9 @@ These are the drivers used for OpenCore, for the majority of systems you only ne
 ### Kexts
 
 A kext is a kernel extension, you can think of this as a driver for macOS, these files will go into the Kexts folder in your EFI.
+
+**Must haves:**
+
+- [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
+  - Emulates the SMC chip found on real macs, without this macOS will not boot
+  - Alternative is FakeSMC which can have better or worse support, most commonly used on legacy hardware.
