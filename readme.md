@@ -108,7 +108,7 @@ A kext is a kernel extension, you can think of this as a driver for macOS, these
 **AMD CPU Specific kexts:**
 
   - [NullCPUPowerManagment](https://github.com/corpnewt/NullCPUPowerManagement)
-    - _OpenCore 0.5.5, we have a much better solution known as `DummyPowerManagement` found under `Kernel -> Quirks`._
+    - _OpenCore 0.5.5, we have a much better solution known as `DummyPowerManagement` found under `Kernel -> Quirks`_
   - [VoodooHDA](https://sourceforge.net/projects/voodoohda/)
     - _Audio for FX systems and front panel Mic+Audio support for Ryzen system, do not mix with AppleALC. Audio quality is noticably worse than AppleALC on Zen CPUs._
     
