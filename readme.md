@@ -15,7 +15,7 @@
 
 ## OpenCore
 
-- Version: 0.5.5
+- Version: 0.5.8
 - [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
 
 ### Directory Structure
@@ -40,6 +40,8 @@ When directory boot is used the directory structure used should follow the descr
     - _OC Config._
 - nvram.plist (_OpenCore variable import file._)
 
+
+### Kexts
 
  Please refer to [Kexts.md](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Kexts.md) for a full list of supported kexts
 
