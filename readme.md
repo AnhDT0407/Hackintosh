@@ -1,3 +1,5 @@
+## Update (9/5/2020)
+
 ## Configuration
 
 - Mainboard: **ROG STRIX B450-I GAMING**
@@ -9,7 +11,7 @@
 
 ## MacOS
 
-- Catalina 10.15.3.00
+- Catalina 10.15.4 (19E287)
 - [Download](https://github.com/AnhDT0407/Hackintosh/edit/master/readme.md)
 
 
