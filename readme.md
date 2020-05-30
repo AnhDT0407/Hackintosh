@@ -11,7 +11,7 @@
 
 ## MacOS
 
-- Catalina 10.15.4 (19E287)
+- Catalina 10.15.5 (19F96)
 - [Download](https://github.com/AnhDT0407/Hackintosh/edit/master/readme.md)
 
 
