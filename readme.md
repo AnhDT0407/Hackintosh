@@ -20,6 +20,10 @@
 - Version: 0.5.8
 - [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
 
+## SMCAMDProcessor
+
+[Homepage](https://github.com/trulyspinach/SMCAMDProcessor)
+
 ### Directory Structure
 
 When directory boot is used the directory structure used should follow the description on Directory Structure figure. Available entries include:
