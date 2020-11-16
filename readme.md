@@ -11,13 +11,13 @@
 
 ## MacOS
 
-- Catalina 10.15.5 (19F96)
+- Big Sur (20B29)
 - [Download](https://github.com/AnhDT0407/Hackintosh/edit/master/readme.md)
 
 
 ## OpenCore
 
-- Version: 0.5.8
+- Version: 0.6.3
 - [OpenCorePkg release](https://github.com/acidanthera/OpenCorePkg/releases)
 
 ## SMCAMDProcessor
