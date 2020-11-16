@@ -11,7 +11,7 @@
 
 ## MacOS
 
-- Big Sur (20B29)
+- Big Sur 11.0.1 (20B29)
 - [Download](https://github.com/AnhDT0407/Hackintosh/edit/master/readme.md)
 
 
